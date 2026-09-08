@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>التسجيل | أكاديمية أبيكس لكرة القدم</title>
+  <meta name="description" content="سجّل طفلك في أكاديمية أبيكس لكرة القدم عبر نموذج التسجيل الإلكتروني." />
+  <link rel="icon" href="../img/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="../index.html">
+        <img src="../img/logo.svg" alt="شعار أكاديمية أبيكس" />
+        <span>أكاديمية أبيكس<small>لكرة القدم</small></span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="../index.html">الرئيسية</a></li>
+          <li><a href="about.html">من نحن</a></li>
+          <li><a href="programs.html">البرامج التدريبية</a></li>
+          <li><a href="coaches.html">المدربون</a></li>
+          <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn--primary" href="registration.html">سجّل الآن</a>
+      </div>
+      <button class="nav-toggle" aria-label="القائمة" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Banner ===== -->
+  <section class="page-banner">
+    <div class="container">
+      <div class="breadcrumb"><a href="../index.html">الرئيسية</a> / التسجيل</div>
+      <h1>التسجيل في الأكاديمية</h1>
+      <p>املأ النموذج التالي وسيتواصل معك فريقنا لإتمام الإجراءات.</p>
+    </div>
+  </section>
+
+  <!-- ===== Form ===== -->
+  <section class="section">
+    <div class="container" style="max-width:760px;">
+      <form id="registration-form" class="form-card" novalidate>
+        <div class="form-grid">
+          <div class="field">
+            <label for="playerName">اسم اللاعب</label>
+            <input type="text" id="playerName" name="playerName" placeholder="الاسم الكامل" required />
+            <span class="error-msg"></span>
+          </div>
+          <div class="field">
+            <label for="birthdate">تاريخ الميلاد</label>
+            <input type="date" id="birthdate" name="birthdate" required />
+            <span class="error-msg"></span>
+          </div>
+          <div class="field">
+            <label for="program">البرنامج التدريبي</label>
+            <select id="program" name="program" required>
+              <option value="">اختر البرنامج</option>
+              <option value="u9">البراعم (5–9 سنوات)</option>
+              <option value="u13">الناشئين (10–13 سنة)</option>
+              <option value="u17">الشباب (14–17 سنة)</option>
+              <option value="elite">فريق النخبة</option>
+            </select>
+            <span class="error-msg"></span>
+          </div>
+          <div class="field">
+            <label for="position">المركز المفضّل</label>
+            <select id="position" name="position">
+              <option value="">غير محدد</option>
+              <option>حارس مرمى</option>
+              <option>مدافع</option>
+              <option>خط وسط</option>
+              <option>مهاجم</option>
+            </select>
+            <span class="error-msg"></span>
+          </div>
+          <div class="field">
+            <label for="guardian">اسم ولي الأمر</label>
+            <input type="text" id="guardian" name="guardian" placeholder="اسم ولي الأمر" required />
+            <span class="error-msg"></span>
+          </div>
+          <div class="field">
+            <label for="phone">رقم الهاتف</label>
+            <input type="tel" id="phone" name="phone" placeholder="+964 7XX XXX XXXX" required />
+            <span class="error-msg"></span>
+          </div>
+          <div class="field full">
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required />
+            <span class="error-msg"></span>
+          </div>
+          <div class="field full">
+            <label for="notes">ملاحظات إضافية</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="أي معلومات طبية أو ملاحظات ترغب بإخبارنا بها"></textarea>
+            <span class="error-msg"></span>
+          </div>
+        </div>
+
+        <div style="margin-top:1.5rem; display:flex; gap:1rem; flex-wrap:wrap; align-items:center;">
+          <button type="submit" class="btn btn--primary">إرسال طلب التسجيل</button>
+          <a class="btn btn--outline" href="programs.html">مراجعة البرامج أولاً</a>
+        </div>
+        <div class="form-note" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="../index.html">
+            <img src="../img/logo.svg" alt="شعار أكاديمية أبيكس" />
+            <span>أكاديمية أبيكس<small>لكرة القدم</small></span>
+          </a>
+          <p>نصنع لاعبي المستقبل من خلال التدريب الاحترافي والقيم الرياضية.</p>
+        </div>
+        <div>
+          <h4>روابط سريعة</h4>
+          <ul class="footer-links">
+            <li><a href="../index.html">الرئيسية</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="programs.html">البرامج</a></li>
+            <li><a href="coaches.html">المدربون</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>الأكاديمية</h4>
+          <ul class="footer-links">
+            <li><a href="registration.html">التسجيل</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>تواصل معنا</h4>
+          <ul class="footer-links">
+            <li>📍 بغداد، العراق</li>
+            <li>📞 964 000 000 0000+</li>
+            <li>✉️ info@apexacademy.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> أكاديمية أبيكس لكرة القدم. جميع الحقوق محفوظة.</span>
+        <span>صُنع بشغف ⚽</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

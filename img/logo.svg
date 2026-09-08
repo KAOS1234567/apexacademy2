@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Apex Academy logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b8a3e"/>
+      <stop offset="1" stop-color="#0f1b2d"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield -->
+  <path d="M32 3 L57 12 V32 C57 47 46 57 32 61 C18 57 7 47 7 32 V12 Z" fill="url(#g)"/>
+  <path d="M32 3 L57 12 V32 C57 47 46 57 32 61 C18 57 7 47 7 32 V12 Z" fill="none" stroke="#f4b400" stroke-width="2"/>
+  <!-- Football -->
+  <circle cx="32" cy="30" r="13" fill="#ffffff"/>
+  <path d="M32 20 l4 3 -1.5 5 h-5 L28 23 Z" fill="#0f1b2d"/>
+  <path d="M32 43 a13 13 0 0 0 8-2.8 l-2.6-4.2 -6.8 0 -2.6 4.2 A13 13 0 0 0 32 43Z" fill="#0f1b2d"/>
+  <path d="M20.5 27 l4.2 3 -1.7 5.2 -4.8 -.2 A13 13 0 0 1 20.5 27Z" fill="#0f1b2d"/>
+  <path d="M43.5 27 l-4.2 3 1.7 5.2 4.8 -.2 A13 13 0 0 0 43.5 27Z" fill="#0f1b2d"/>
+  <!-- Peak / Apex chevron -->
+  <path d="M24 50 l8-9 8 9" fill="none" stroke="#f4b400" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
